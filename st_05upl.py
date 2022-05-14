@@ -7,12 +7,22 @@ from PIL import Image
 def render():  
  st.title('Color Sound Generator_Plot_Version_0.2')
 
- uploaded_file=st.file_uploader("Upload your Pic and Generate Sound", type=['png', 'jpg'] )
+ uploaded_file=st.file_uploader("Take a Picture or Upload your Pic to Generate Sound", type=['png', 'jpg'] )
  if uploaded_file is not None:
      image=Image.open(uploaded_file)
      img_array = np.array(image)
      bytes_data = uploaded_file.read()
      st.image(img_array,caption = 'your picture',use_column_width = True)
+
+     with open ('test.jpg','wb') as file:   
+      file.write(uploaded_file.getbuffer())
+      with open('test.jpg', "rb") as file:
+       btn=st.download_button(
+        label="Download your picture",
+        data=file,
+        file_name='colorcleanser.jpg',
+        mime="application/octet-stream"
+        )         
 
      # To read image file buffer with OpenCV:
      bytes_data = uploaded_file.getvalue()
