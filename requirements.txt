@@ -1,4 +1,4 @@
-streamlit
-opencv-python-headless
-numpy
-synthesizer
+streamlit==1.9.0
+opencv-python-headless=4.5.5.64
+numpy==1.22.3
+synthesizer==0.2.0
