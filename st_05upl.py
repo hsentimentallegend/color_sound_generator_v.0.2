@@ -7,28 +7,34 @@ from PIL import Image
 def render():  
  st.title('Color Sound Generator_Plot_Version_0.2')
 
- uploaded_file=st.file_uploader("Take a Picture or Upload your Pic to Generate Sound", type=['png', 'jpg'] )
+ uploaded_file=st.file_uploader("Take a Picture or Upload your Pic to Generate Sound", type=['png', 'jpg', 'jpeg'] )
  if uploaded_file is not None:
      image=Image.open(uploaded_file)
      img_array = np.array(image)
      bytes_data = uploaded_file.read()
      st.image(img_array,caption = 'your picture',use_column_width = True)
 
+     #ダウンロードボタン処理
      with open ('test.jpg','wb') as file:   
       file.write(uploaded_file.getbuffer())
       with open('test.jpg', "rb") as file:
-       btn=st.download_button(
+       st.download_button(
         label="Download your picture",
         data=file,
         file_name='colorcleanser.jpg',
         mime="application/octet-stream"
         )         
 
+    
+     
      # To read image file buffer with OpenCV:
      bytes_data = uploaded_file.getvalue()
      cv2_img = cv2.imdecode(np.frombuffer(bytes_data, np.uint8), cv2.IMREAD_COLOR)
 
-     height, width, ch = cv2_img.shape
+     #スマホ画像の読み取り速度を上げるためここで画像サイズを10分の1へリサイズしている（改善の余地あるかも）
+     dst = cv2.resize(cv2_img, dsize=None, fx=0.1, fy=0.1)
+
+     height, width, ch = dst.shape
 
      # 画素数 = 幅 * 高さ
      size = width * height
