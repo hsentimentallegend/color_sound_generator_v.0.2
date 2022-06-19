@@ -66,36 +66,84 @@ def render():
      st.write("over200 to Hi, 200-100 to Mid,under 100 to Low",(int(total)))
 
      value=(int(total))
-     if value<200 and value >100: 
+     if value>80 and value <100: 
     # ここの説明は 音作り を参照
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
      # 一定音程の波形を生成する
-      wave = synth.generate_constant_wave(frequency=800.0, length=5.0) #lengthは音の長さ
+      wave = synth.generate_constant_wave(frequency=285.0, length=5.0) #lengthは音の長さ
      # オーディオファイル出力用クラス
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate Mid!!!')
+      st.write('## success to Generate 285hz!!!')
+     
 
 
 
-
-     elif value>200:
+     elif value>100 and value <=120 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1200.0, length=5.0)
+      wave = synth.generate_constant_wave(frequency=396.0, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate Hi!!!')
+      st.write('## success to Generate 396hz!!!')
+
+     elif value>120 and value <=140:
+      synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
+      wave = synth.generate_constant_wave(frequency=417.0, length=5.0)
+      writer = Writer()
+      writer.write_wave("sine.wav", wave)
+
+      st.write('## success to Generate 417hz!!!')
+
+     elif value>140 and value <=160:
+      synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
+      wave = synth.generate_constant_wave(frequency=528.0, length=5.0)
+      writer = Writer()
+      writer.write_wave("sine.wav", wave)
+
+      st.write('## success to Generate 528hz!!!')
+
+     elif value>160 and value <=180:
+      synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
+      wave = synth.generate_constant_wave(frequency=639.0, length=5.0)
+      writer = Writer()
+      writer.write_wave("sine.wav", wave)
+
+      st.write('## success to Generate 639hz!!!')
+
+     elif value>180 and value <=200:
+      synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
+      wave = synth.generate_constant_wave(frequency=741.0, length=5.0)
+      writer = Writer()
+      writer.write_wave("sine.wav", wave)
+
+      st.write('## success to Generate 741hz!!!')
+
+     elif value>200 and value <=220:
+      synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
+      wave = synth.generate_constant_wave(frequency=852.0, length=5.0)
+      writer = Writer()
+      writer.write_wave("sine.wav", wave)
+
+      st.write('## success to Generate 852hz!!!')
+
+     elif value>220 and value <=256:
+      synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
+      wave = synth.generate_constant_wave(frequency=963.0, length=5.0)
+      writer = Writer()
+      writer.write_wave("sine.wav", wave)
+
+      st.write('## success to Generate 963hz!!!')
 
 
      else : 
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=160.0, length=5.0)
+      wave = synth.generate_constant_wave(frequency=174.0, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate Low!!!')
+      st.write('## success to Generate 174hz!!!')
 
 
      audio_file = open('sine.wav', 'rb')
