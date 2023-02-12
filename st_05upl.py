@@ -87,7 +87,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 285hz!!!')
+      st.write('## success to Generate 523.2hz!!!')
      
 
 
@@ -98,7 +98,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 396hz!!!')
+      st.write('## success to Generate 554.3hz!!!')
 
      elif value>120 and value <=140:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
@@ -106,7 +106,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 417hz!!!')
+      st.write('## success to Generate 622.2hz!!!')
 
      elif value>140 and value <=160:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
@@ -114,7 +114,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 528hz!!!')
+      st.write('## success to Generate 698.4hz!!!')
 
      elif value>160 and value <=180:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
@@ -122,7 +122,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 639hz!!!')
+      st.write('## success to Generate 783.9hz!!!')
 
      elif value>180 and value <=200:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
@@ -130,7 +130,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 741hz!!!')
+      st.write('## success to Generate 830.6hz!!!')
 
      elif value>200 and value <=220:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
@@ -138,7 +138,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 852hz!!!')
+      st.write('## success to Generate 932.3hz!!!')
 
      elif value>220 and value <=256:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
@@ -146,7 +146,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 963hz!!!')
+      st.write('## success to Generate 1046.5hz!!!')
 
 
      else : 
@@ -155,7 +155,7 @@ def render():
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
-      st.write('## success to Generate 174hz!!!')
+      st.write('## success to Generate 1108.7hz!!!')
 
 
      audio_file = open('sine.wav', 'rb')
