@@ -11,7 +11,7 @@ def main():
         st.image('c-001.jpg')
         
         st.title('credit')
-        st.write('developed by , directed by ')
+        st.write('developed by Hiroshi Mehata, directed by Hiroshi Mehata')
         link = '[Website](https://www.mehatasentimentallegend.com/)'
         st.markdown(link, unsafe_allow_html=True)
 
