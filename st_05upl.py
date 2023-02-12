@@ -5,9 +5,9 @@ from synthesizer import Synthesizer, Waveform, Writer
 from PIL import Image
 
 def render():  
- st.title('Color Sound Generator_Plot_Version_0.2.1')
+ st.title('Color Sound Generator_Master_Version_1')
 
- uploaded_file=st.file_uploader("Take a Picture or Upload your Pic to Generate Sound, Solfogio Frequency Version", type=['png', 'jpg', 'jpeg'] )
+ uploaded_file=st.file_uploader("Take a Picture or Upload your Pic to Generate Sound", type=['png', 'jpg', 'jpeg'] )
  if uploaded_file is not None:
      image=Image.open(uploaded_file)
      img_array = np.array(image)
