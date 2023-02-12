@@ -75,7 +75,7 @@ def render():
     
 
      total=((b_ave + g_ave + r_ave)/3) 
-     st.write("Solfogio frequencies are created according to the average of the RGB values",(int(total)))
+     st.write("frequencies are created according to the average of the RGB values",(int(total)))
 
      value=(int(total))
      if value>80 and value <90: 
