@@ -82,7 +82,7 @@ def render():
     # ここの説明は 音作り を参照
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
      # 一定音程の波形を生成する
-      wave = synth.generate_constant_wave(frequency=523.2, length=5.0) #lengthは音の長さ
+      wave = synth.generate_constant_wave(frequency=523.251, length=5.0) #lengthは音の長さ
      # オーディオファイル出力用クラス
       writer = Writer()
       writer.write_wave("sine.wav", wave)
@@ -94,7 +94,7 @@ def render():
 
      elif value>100 and value <=120 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=554.3, length=5.0)
+      wave = synth.generate_constant_wave(frequency=554.365, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -102,7 +102,7 @@ def render():
 
      elif value>120 and value <=140:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=622.2, length=5.0)
+      wave = synth.generate_constant_wave(frequency=622.254, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -110,7 +110,7 @@ def render():
 
      elif value>140 and value <=160:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=698.4, length=5.0)
+      wave = synth.generate_constant_wave(frequency=698.456, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -118,7 +118,7 @@ def render():
 
      elif value>160 and value <=180:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=783.9, length=5.0)
+      wave = synth.generate_constant_wave(frequency=783.991, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -126,7 +126,7 @@ def render():
 
      elif value>180 and value <=200:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=830.6, length=5.0)
+      wave = synth.generate_constant_wave(frequency=830.609, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -134,7 +134,7 @@ def render():
 
      elif value>200 and value <=220:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=932.3, length=5.0)
+      wave = synth.generate_constant_wave(frequency=932.328, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -142,7 +142,7 @@ def render():
 
      elif value>220 and value <=256:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1046.5, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1046.502, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -151,7 +151,7 @@ def render():
 
      else : 
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1108.7, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1108.731, length=5.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
