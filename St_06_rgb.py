@@ -1174,7 +1174,7 @@ def render():
      st.markdown(link, unsafe_allow_html=True)
 
      
-     value=(int(g_ave))
+     value=(int(r_ave))
      if value>1 and value <4: 
     # ここの説明は 音作り を参照
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
