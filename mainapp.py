@@ -8,7 +8,7 @@ def main():
         st.title('Color Sound Generator')
         st.write('This is an application that converts the color RGB values of an image to sound.')
         st.write('you can select the mode Camera or upload')
-        page = st.selectbox('', ('Normal mode', 'Mini Cam mode'), )
+        page = st.selectbox('', ('Normal mode', 'Mini Cam mode','RGB 3 tone mode'), )
         st.image('c-001.jpg')
         
         st.title('credit')
