@@ -1,6 +1,7 @@
 import streamlit as st
 import st_05upl
 import st_03
+import St_06_rgb
 
 def main():
     with st.sidebar:
@@ -20,7 +21,8 @@ def main():
         st_05upl.render()
     elif page == 'Mini Cam mode':
         st_03.render()
-
+    elif page == 'RGB 3 tone mode':
+        St_06_rgb.render()
 
 if __name__ == '__main__':
     main()
