@@ -82,7 +82,7 @@ def render():
     # ここの説明は 音作り を参照
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
      # 一定音程の波形を生成する
-      wave = synth.generate_constant_wave(frequency=195.998, length=5.0) #lengthは音の長さ
+      wave = synth.generate_constant_wave(frequency=195.998, length=7.0) #lengthは音の長さ
      # オーディオファイル出力用クラス
       writer = Writer()
       writer.write_wave("sine.wav", wave)
@@ -91,7 +91,7 @@ def render():
      
      elif value>4 and value <=8 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=195.998, length=5.0)
+      wave = synth.generate_constant_wave(frequency=195.998, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -100,7 +100,7 @@ def render():
 
      elif value>8 and value <=12 :
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=207.652, length=5.0)
+      wave = synth.generate_constant_wave(frequency=207.652, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -108,7 +108,7 @@ def render():
       
      elif value>12 and value <=16 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=207.652, length=5.0)
+      wave = synth.generate_constant_wave(frequency=207.652, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -116,7 +116,7 @@ def render():
 
      elif value>16 and value <=20:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=233.082, length=5.0)
+      wave = synth.generate_constant_wave(frequency=233.082, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -125,7 +125,7 @@ def render():
       
      elif value>20 and value <=24:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=233.082, length=5.0)
+      wave = synth.generate_constant_wave(frequency=233.082, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -133,7 +133,7 @@ def render():
       
      elif value>24 and value <=28:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=261.626, length=5.0)
+      wave = synth.generate_constant_wave(frequency=261.626, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -141,7 +141,7 @@ def render():
       
      elif value>28 and value <=32:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=261.626, length=5.0)
+      wave = synth.generate_constant_wave(frequency=261.626, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -150,7 +150,7 @@ def render():
 
      elif value>32 and value <=36:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=277.183, length=5.0)
+      wave = synth.generate_constant_wave(frequency=277.183, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -158,7 +158,7 @@ def render():
       
      elif value>36 and value <=40:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=277.183, length=5.0)
+      wave = synth.generate_constant_wave(frequency=277.183, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -167,7 +167,7 @@ def render():
       
      elif value>40 and value <=44:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=311.127, length=5.0)
+      wave = synth.generate_constant_wave(frequency=311.127, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -175,7 +175,7 @@ def render():
       
      elif value>44 and value <=48:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=311.127, length=5.0)
+      wave = synth.generate_constant_wave(frequency=311.127, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -184,7 +184,7 @@ def render():
 
      elif value>48 and value <=52:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=349.228, length=5.0)
+      wave = synth.generate_constant_wave(frequency=349.228, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -192,7 +192,7 @@ def render():
       
      elif value>52 and value <=56:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=349.228, length=5.0)
+      wave = synth.generate_constant_wave(frequency=349.228, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -200,7 +200,7 @@ def render():
 
      elif value>56 and value <=60:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=391.995, length=5.0)
+      wave = synth.generate_constant_wave(frequency=391.995, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -208,7 +208,7 @@ def render():
       
      elif value>60 and value <=64:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=391.995, length=5.0)
+      wave = synth.generate_constant_wave(frequency=391.995, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -216,7 +216,7 @@ def render():
       
      elif value>64 and value <=68 :
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=415.305, length=5.0)
+      wave = synth.generate_constant_wave(frequency=415.305, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -225,7 +225,7 @@ def render():
 
      elif value>68 and value <=72 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=415.305, length=5.0)
+      wave = synth.generate_constant_wave(frequency=415.305, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -233,7 +233,7 @@ def render():
       
      elif value>72 and value <=76 :
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=466.164, length=5.0)
+      wave = synth.generate_constant_wave(frequency=466.164, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -241,7 +241,7 @@ def render():
 
      elif value>76 and value <=80:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=466.164, length=5.0)
+      wave = synth.generate_constant_wave(frequency=466.164, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -250,7 +250,7 @@ def render():
       
      elif value>80 and value <=84:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=523.251, length=5.0)
+      wave = synth.generate_constant_wave(frequency=523.251, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -258,7 +258,7 @@ def render():
       
      elif value>84 and value <=88:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=523.251, length=5.0)
+      wave = synth.generate_constant_wave(frequency=523.251, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -266,7 +266,7 @@ def render():
       
      elif value>88 and value <=92:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=554.365, length=5.0)
+      wave = synth.generate_constant_wave(frequency=554.365, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -275,7 +275,7 @@ def render():
 
      elif value>92 and value <=96:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=554.365, length=5.0)
+      wave = synth.generate_constant_wave(frequency=554.365, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -283,7 +283,7 @@ def render():
       
      elif value>96 and value <=100:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=622.254, length=5.0)
+      wave = synth.generate_constant_wave(frequency=622.254, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -292,7 +292,7 @@ def render():
       
      elif value>100 and value <=104:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=622.254, length=5.0)
+      wave = synth.generate_constant_wave(frequency=622.254, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -300,7 +300,7 @@ def render():
       
      elif value>104 and value <=108:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=698.456, length=5.0)
+      wave = synth.generate_constant_wave(frequency=698.456, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -309,7 +309,7 @@ def render():
 
      elif value>108 and value <=112:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=698.456, length=5.0)
+      wave = synth.generate_constant_wave(frequency=698.456, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -317,7 +317,7 @@ def render():
       
      elif value>112 and value <=116:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=783.991, length=5.0)
+      wave = synth.generate_constant_wave(frequency=783.991, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -325,7 +325,7 @@ def render():
 
      elif value>116 and value <=120:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=783.991, length=5.0)
+      wave = synth.generate_constant_wave(frequency=783.991, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -333,7 +333,7 @@ def render():
       
      elif value>120 and value <=124:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=830.609, length=5.0)
+      wave = synth.generate_constant_wave(frequency=830.609, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -341,7 +341,7 @@ def render():
       
      elif value>124 and value <=128 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=830.609, length=5.0)
+      wave = synth.generate_constant_wave(frequency=830.609, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -350,7 +350,7 @@ def render():
 
      elif value>128 and value <=132 :
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=932.328, length=5.0)
+      wave = synth.generate_constant_wave(frequency=932.328, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -358,7 +358,7 @@ def render():
       
      elif value>132 and value <=136 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=932.328, length=5.0)
+      wave = synth.generate_constant_wave(frequency=932.328, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -366,7 +366,7 @@ def render():
 
      elif value>136 and value <=140:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1046.502, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1046.502, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -375,7 +375,7 @@ def render():
       
      elif value>140 and value <=144:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1046.502, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1046.502, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -383,7 +383,7 @@ def render():
       
      elif value>144 and value <=148:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1108.731, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1108.731, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -391,7 +391,7 @@ def render():
       
      elif value>148 and value <=152:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1108.731, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1108.731, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -400,7 +400,7 @@ def render():
 
      elif value>152 and value <=156:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1244.508, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1244.508, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -408,7 +408,7 @@ def render():
       
      elif value>156 and value <=160:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1244.508, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1244.508, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -417,7 +417,7 @@ def render():
       
      elif value>160 and value <=164:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1396.913, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1396.913, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -425,7 +425,7 @@ def render():
       
      elif value>164 and value <=168:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1396.913, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1396.913, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -434,7 +434,7 @@ def render():
 
      elif value>168 and value <=172:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1567.982, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1567.982, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -442,7 +442,7 @@ def render():
       
      elif value>172 and value <=176:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1567.982, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1567.982, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -450,7 +450,7 @@ def render():
 
      elif value>176 and value <=180:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1661.219, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1661.219, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -458,7 +458,7 @@ def render():
       
      elif value>180 and value <=184:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1661.219, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1661.219, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -466,7 +466,7 @@ def render():
       
      elif value>184 and value <=188 :
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1864.655, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1864.655, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -475,7 +475,7 @@ def render():
 
      elif value>188 and value <=192 :
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=1864.655, length=5.0)
+      wave = synth.generate_constant_wave(frequency=1864.655, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -483,7 +483,7 @@ def render():
       
      elif value>192 and value <=196 :
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2093.005, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2093.005, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -491,7 +491,7 @@ def render():
 
      elif value>196 and value <=200:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2093.005, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2093.005, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -500,7 +500,7 @@ def render():
       
      elif value>200 and value <=204:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2217.461, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2217.461, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -508,7 +508,7 @@ def render():
       
      elif value>204 and value <=208:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2217.461, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2217.461, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -516,7 +516,7 @@ def render():
       
      elif value>208 and value <=212:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2489.016, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2489.016, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -525,7 +525,7 @@ def render():
 
      elif value>212 and value <=216:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2489.016, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2489.016, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -533,7 +533,7 @@ def render():
       
      elif value>216 and value <=220:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2793.826, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2793.826, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -542,7 +542,7 @@ def render():
       
      elif value>220 and value <=224:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=2793.826, length=5.0)
+      wave = synth.generate_constant_wave(frequency=2793.826, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -550,7 +550,7 @@ def render():
       
      elif value>224 and value <=228:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=3135.963, length=5.0)
+      wave = synth.generate_constant_wave(frequency=3135.963, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -559,7 +559,7 @@ def render():
 
      elif value>228 and value <=232:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=3135.963, length=5.0)
+      wave = synth.generate_constant_wave(frequency=3135.963, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -567,7 +567,7 @@ def render():
       
      elif value>232 and value <=236:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=3322.438, length=5.0)
+      wave = synth.generate_constant_wave(frequency=3322.438, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -575,7 +575,7 @@ def render():
 
      elif value>236 and value <=240:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=3322.438, length=5.0)
+      wave = synth.generate_constant_wave(frequency=3322.438, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -583,7 +583,7 @@ def render():
       
      elif value>240 and value <=244:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=3729.31, length=5.0)
+      wave = synth.generate_constant_wave(frequency=3729.31, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -592,7 +592,7 @@ def render():
       
      elif value>244 and value <=248:
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=3729.31, length=5.0)
+      wave = synth.generate_constant_wave(frequency=3729.31, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -600,7 +600,7 @@ def render():
       
      elif value>248 and value <=252:
       synth = Synthesizer(osc1_waveform=Waveform.sawtooth, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=4186.009, length=5.0)
+      wave = synth.generate_constant_wave(frequency=4186.009, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
@@ -609,7 +609,7 @@ def render():
       
      else : 
       synth = Synthesizer(osc1_waveform=Waveform.sine, osc1_volume=1.0, use_osc2=False)
-      wave = synth.generate_constant_wave(frequency=4186.009, length=5.0)
+      wave = synth.generate_constant_wave(frequency=4186.009, length=7.0)
       writer = Writer()
       writer.write_wave("sine.wav", wave)
 
