@@ -18,7 +18,7 @@ def main():
         
         st.title('concept')
         st.write('This app was created for the sound installation of the Hiroshi Mehata solo exhibition - Color Cleanser (2023).')
-        st.write('Take a photo of the paintings in the exhibition space or the venue. The sound will be created from the color values contained in the photo.')
+        st.write('Take pictures of paintings in the venue, the venue itself, your pictures, or anything you like. The sound will be created from the color values contained in the photo.')
         st.write('Play that sound at the venue and be a part of the music at the venue.')
 
 
