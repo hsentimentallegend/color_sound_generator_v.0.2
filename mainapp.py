@@ -20,7 +20,7 @@ def main():
         st.write('This app was created for the sound installation of the Hiroshi Mehata solo exhibition - Color Cleanser (2023).')
         st.write('Take pictures of paintings in the venue, the venue itself, your pictures, or anything you like. The sound will be created from the color values contained in the photo.')
         st.write('Play that sound at the venue and be a part of the music at the venue.')
-
+        st.write('It can be used even after the exhibition ends.')
 
     if page == 'Normal mode':
         st_05upl.render()
