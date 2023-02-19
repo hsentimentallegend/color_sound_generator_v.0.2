@@ -1713,7 +1713,8 @@ def render():
      audio_bytes = audio_file.read()
 
      st.audio(audio_bytes, format='audio/ogg')
-
+     st.write("R color average Value",(int(R_ave)))
+     
      link = '[Share Picture with Instagram](https://www.instagram.com/)'
      st.markdown(link, unsafe_allow_html=True)
-     st.write("R color average Value",(int(R_ave)))
+
