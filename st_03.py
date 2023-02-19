@@ -5,7 +5,7 @@ from synthesizer import Synthesizer, Waveform, Writer
 
 def render():
 
- st.title('Color Sound Generator_Version_1.0')
+ st.title('Color Sound Generator_Mini_Cam_mode')
  img_file_buffer = st.camera_input("Take a picture, and Generate Sound with the value of the Color",)
  if img_file_buffer is not None:
 
