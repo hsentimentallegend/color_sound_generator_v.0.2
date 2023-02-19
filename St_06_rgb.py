@@ -5,7 +5,7 @@ from synthesizer import Synthesizer, Waveform, Writer
 from PIL import Image
 
 def render():  
- st.title('Color Sound Generator_Master_Version_1.0_3 Tone Mode')
+ st.title('Color Sound Generator_Master_Version_1_3Tone_Mode')
 
  uploaded_file=st.file_uploader("Take a Picture or Upload your Pic to Generate Sound", type=['png', 'jpg', 'jpeg'] )
  if uploaded_file is not None:
@@ -620,10 +620,12 @@ def render():
      audio_bytes = audio_file.read()
 
      st.audio(audio_bytes, format='audio/ogg')
-     st.write("B color average Value",(int(b_ave)))
 
-     # ここからg
-     
+     link = '[Share Picture with Instagram](https://www.instagram.com/)'
+     st.markdown(link, unsafe_allow_html=True)
+
+
+
      value=(int(g_ave))
      if value>1 and value <4: 
     # ここの説明は 音作り を参照
@@ -1167,8 +1169,10 @@ def render():
      audio_bytes = audio_file.read()
 
      st.audio(audio_bytes, format='audio/ogg')
-     st.write("G color average Value",(int(g_ave)))
-     # ここからr
+
+     link = '[Share Picture with Instagram](https://www.instagram.com/)'
+     st.markdown(link, unsafe_allow_html=True)
+
      
      value=(int(r_ave))
      if value>1 and value <4: 
@@ -1713,8 +1717,6 @@ def render():
      audio_bytes = audio_file.read()
 
      st.audio(audio_bytes, format='audio/ogg')
-     st.write("R color average Value",(int(R_ave)))
-     
+
      link = '[Share Picture with Instagram](https://www.instagram.com/)'
      st.markdown(link, unsafe_allow_html=True)
-
