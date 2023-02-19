@@ -6,6 +6,7 @@ from PIL import Image
 
 def render():  
  st.title('Color Sound Generator_Version_1.0')
+ st.write('You can choose the mode from the menu bar in the upper left corner')
 
  uploaded_file=st.file_uploader("Take a Picture or Upload your Pic to Generate Sound", type=['png', 'jpg', 'jpeg'] )
  if uploaded_file is not None:
