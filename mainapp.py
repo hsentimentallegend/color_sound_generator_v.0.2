@@ -15,6 +15,11 @@ def main():
         st.write('developed by Hiroshi Mehata, directed by Hiroshi Mehata')
         link = '[Website](https://www.mehatasentimentallegend.com/)'
         st.markdown(link, unsafe_allow_html=True)
+        
+        st.title('concept')
+        st.write('This app was created for the sound installation of the Hiroshi Mehata solo exhibition - Color Cleanser (2023).')
+        st.write('Take a photo of the paintings in the exhibition space or the venue. The sound will be created from the color values contained in the photo.')
+        st.write('Play that sound at the venue and be a part of the music at the venue.')
 
 
     if page == 'Normal mode':
